@@ -1,17 +1,25 @@
-import { __decorate } from "tslib";
 import { Component } from '@angular/core';
+import * as i0 from "@angular/core";
 var LibTest1Component = /** @class */ (function () {
     function LibTest1Component() {
     }
     LibTest1Component.prototype.ngOnInit = function () {
     };
-    LibTest1Component = __decorate([
-        Component({
-            selector: 'foo-lib-test1',
-            template: "\n    <p>\n      lib-test1 works!\n    </p>\n  "
-        })
-    ], LibTest1Component);
+    LibTest1Component.ɵfac = function LibTest1Component_Factory(t) { return new (t || LibTest1Component)(); };
+    LibTest1Component.ɵcmp = i0.ɵɵdefineComponent({ type: LibTest1Component, selectors: [["foo-lib-test1"]], decls: 2, vars: 0, template: function LibTest1Component_Template(rf, ctx) { if (rf & 1) {
+            i0.ɵɵelementStart(0, "p");
+            i0.ɵɵtext(1, " lib-test1 works! ");
+            i0.ɵɵelementEnd();
+        } }, encapsulation: 2 });
     return LibTest1Component;
 }());
 export { LibTest1Component };
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGliLXRlc3QxLmNvbXBvbmVudC5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2xpYi10ZXN0MS8iLCJzb3VyY2VzIjpbImxpYi9saWItdGVzdDEuY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxPQUFPLEVBQUUsU0FBUyxFQUFVLE1BQU0sZUFBZSxDQUFDO0FBV2xEO0lBRUU7SUFBZ0IsQ0FBQztJQUVqQixvQ0FBUSxHQUFSO0lBQ0EsQ0FBQztJQUxVLGlCQUFpQjtRQVQ3QixTQUFTLENBQUM7WUFDVCxRQUFRLEVBQUUsZUFBZTtZQUN6QixRQUFRLEVBQUUsaURBSVQ7U0FFRixDQUFDO09BQ1csaUJBQWlCLENBTzdCO0lBQUQsd0JBQUM7Q0FBQSxBQVBELElBT0M7U0FQWSxpQkFBaUIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQsIE9uSW5pdCB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuXG5AQ29tcG9uZW50KHtcbiAgc2VsZWN0b3I6ICdmb28tbGliLXRlc3QxJyxcbiAgdGVtcGxhdGU6IGBcbiAgICA8cD5cbiAgICAgIGxpYi10ZXN0MSB3b3JrcyFcbiAgICA8L3A+XG4gIGAsXG4gIHN0eWxlczogW11cbn0pXG5leHBvcnQgY2xhc3MgTGliVGVzdDFDb21wb25lbnQgaW1wbGVtZW50cyBPbkluaXQge1xuXG4gIGNvbnN0cnVjdG9yKCkgeyB9XG5cbiAgbmdPbkluaXQoKTogdm9pZCB7XG4gIH1cblxufVxuIl19
+/*@__PURE__*/ (function () { i0.ɵsetClassMetadata(LibTest1Component, [{
+        type: Component,
+        args: [{
+                selector: 'foo-lib-test1',
+                template: "\n    <p>\n      lib-test1 works!\n    </p>\n  ",
+                styles: []
+            }]
+    }], function () { return []; }, null); })();
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGliLXRlc3QxLmNvbXBvbmVudC5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2xpYi10ZXN0MS8iLCJzb3VyY2VzIjpbImxpYi9saWItdGVzdDEuY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxTQUFTLEVBQVUsTUFBTSxlQUFlLENBQUM7O0FBRWxEO0lBV0U7SUFBZ0IsQ0FBQztJQUVqQixvQ0FBUSxHQUFSO0lBQ0EsQ0FBQztzRkFMVSxpQkFBaUI7MERBQWpCLGlCQUFpQjtZQU4xQix5QkFDRTtZQUFBLGtDQUNGO1lBQUEsaUJBQUk7OzRCQVBSO0NBa0JDLEFBaEJELElBZ0JDO1NBUFksaUJBQWlCO2tEQUFqQixpQkFBaUI7Y0FUN0IsU0FBUztlQUFDO2dCQUNULFFBQVEsRUFBRSxlQUFlO2dCQUN6QixRQUFRLEVBQUUsaURBSVQ7Z0JBQ0QsTUFBTSxFQUFFLEVBQUU7YUFDWCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCwgT25Jbml0IH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbkBDb21wb25lbnQoe1xuICBzZWxlY3RvcjogJ2Zvby1saWItdGVzdDEnLFxuICB0ZW1wbGF0ZTogYFxuICAgIDxwPlxuICAgICAgbGliLXRlc3QxIHdvcmtzIVxuICAgIDwvcD5cbiAgYCxcbiAgc3R5bGVzOiBbXVxufSlcbmV4cG9ydCBjbGFzcyBMaWJUZXN0MUNvbXBvbmVudCBpbXBsZW1lbnRzIE9uSW5pdCB7XG5cbiAgY29uc3RydWN0b3IoKSB7IH1cblxuICBuZ09uSW5pdCgpOiB2b2lkIHtcbiAgfVxuXG59XG4iXX0=
