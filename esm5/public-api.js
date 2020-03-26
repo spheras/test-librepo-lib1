@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of lib-test1
+ */
+export * from './lib/lib-test1.service';
+export * from './lib/lib-test1.component';
+export * from './lib/lib-test1.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2xpYi10ZXN0MS8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLHlCQUF5QixDQUFDO0FBQ3hDLGNBQWMsMkJBQTJCLENBQUM7QUFDMUMsY0FBYyx3QkFBd0IsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgbGliLXRlc3QxXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbGliLXRlc3QxLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbGliLXRlc3QxLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9saWItdGVzdDEubW9kdWxlJztcbiJdfQ==

@@ -1,0 +1,19 @@
+{
+  "name": "lib-test1",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^9.0.7",
+    "@angular/core": "^9.0.7",
+    "tslib": "^1.10.0"
+  },
+  "main": "bundles/lib-test1.umd.js",
+  "module": "fesm5/lib-test1.js",
+  "es2015": "fesm2015/lib-test1.js",
+  "esm5": "esm5/lib-test1.js",
+  "esm2015": "esm2015/lib-test1.js",
+  "fesm5": "fesm5/lib-test1.js",
+  "fesm2015": "fesm2015/lib-test1.js",
+  "typings": "lib-test1.d.ts",
+  "metadata": "lib-test1.metadata.json",
+  "sideEffects": false
+}
